@@ -5,3 +5,40 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 290px 0px 230px 0px;
+}
+
+.hero-title {
+  font-size: 60px;
+  color: rgb(45, 45, 45);
+}
+
+.hero-button-container {
+  display: flex;
+  justify-content: end;;
+  margin-right: 105px;
+}
+
+.shop-now-btn {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  border: 2px solid rgb(106, 243, 106);
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 8px;
+  padding-inline: 20px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.shop-now-btn:hover {
+  background-color: rgb(106, 243, 106);
+  color: white;
+}
+

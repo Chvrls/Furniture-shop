@@ -106,9 +106,6 @@
     transition: .6s ease;
   }
 
-  .cart-icon {
-  }
-
   #check:checked~.right-section {
     height: 283.2px;
   }
