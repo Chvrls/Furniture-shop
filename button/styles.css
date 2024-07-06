@@ -1,1 +1,19 @@
-.gradient {}
+.container {
+  width: 100px;
+  height: 35px;
+  position: relative;
+}
+
+.gradient {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+}
+
+button {
+  color: white;
+  padding: 8px 30px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
