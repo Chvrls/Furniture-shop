@@ -7,7 +7,7 @@
 .gradient {
   height: 100%;
   width: 100%;
-  background-color: red;
+  background-color: rgb(164, 25, 25);
   position: absolute;
 }
 
